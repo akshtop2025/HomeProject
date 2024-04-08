@@ -73,4 +73,26 @@
         width: 100%;
     }
 
+    .list {
+        display: block;
+        position: static;
+        background-color: transparent;
+        transition: none;
+        width: 48%;
+    }
+
+
+    .list ul li {
+        display: inline-block;
+        width: 20%;
+        margin: 0 auto;
+        /* padding: 0 20px; */
+        text-align: center;
+    }
+
+    .list ul li a {
+        color: black;
+    }
+
+
 }
